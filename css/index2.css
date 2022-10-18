@@ -136,6 +136,10 @@ section{
     margin-left: 20px;
     margin-top: 20px;
 }
+.offer{
+    font-size: 35px;
+    padding-bottom: 10px;
+}
 footer{
     /* background-color: brown; */
     flex-basis: 10%;
@@ -401,6 +405,9 @@ a{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 10px;
 }
+header{
+    flex-basis: 10%;
+}
 .number{
     flex-basis: 50%;
 }
@@ -434,17 +441,17 @@ ol li:hover{
 container{
         display: flex;
        flex-direction: column;
-       flex-basis:100% ;
+       flex-basis:70% ;
        /* background-color: azure; */
 }
 article{
-    flex-basis: 80%;
+    flex-basis: 60%;
     margin-top: 10px;
     background-color: orangered;
    
 }
 section{
-    flex-basis:20%;
+    flex-basis:40%;
     background-color: orangered;
    
 }
@@ -459,6 +466,13 @@ section{
     animation-duration:5s;
     animation-delay: 1s;
     animation-iteration-count: infinite;
+}
+.offer{
+    margin-left: 20px;  
+    animation-name: nav;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-duration: 0.025s;
 }
 @keyframes image{
     100%{
