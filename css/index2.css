@@ -381,7 +381,7 @@ p{
 
 
 
-@media all and (max-width:375px){
+@media all and (max-width:360px){
 
     ul li{
         float: left;
@@ -576,7 +576,7 @@ p{
     }    
 }
 .thank::first-letter{
-    font-size: 40px;
+    font-size: 30px;
     /* color: black; */
 }
 
