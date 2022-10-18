@@ -4,7 +4,7 @@
 }
 main{
     display: flex;
-    background-color: blue;
+    background-color: black;
     height: 100vh;
     flex-direction: column;
 }
@@ -381,7 +381,7 @@ p{
 
 
 
-@media all and (max-width:380px){
+@media all and (max-width:375px){
 
     ul li{
         float: left;
@@ -515,14 +515,14 @@ button{
  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 footer{
-    flex-basis: 26%;
+    flex-basis: 20%;
     background-color:black;
     display: flex;
     flex-direction: column;
 }
 nav{
     background-color: orangered;
-    flex-basis:100%;
+    flex-basis:80%;
 }
 
 .footername{
@@ -556,12 +556,12 @@ p{
     letter-spacing: 0.6em;
     padding-top: 25px;
     padding-left: 50px;
-    margin-left: 10px;
+    margin-left: 25px;
     animation-name: nav;
     animation-delay: 1s;
     animation-iteration-count: infinite;
     animation-duration: 0.025s;
-    transform: translateX(-50px);
+    transform: translateX(-40px);
 }
 @keyframes nav{
     100%{
