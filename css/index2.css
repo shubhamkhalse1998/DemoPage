@@ -446,7 +446,6 @@ container{
 }
 article{
     flex-basis: 60%;
-    margin-top: 10px;
     background-color: orangered;
    
 }
@@ -473,7 +472,7 @@ section{
     animation-delay: 1s;
     animation-iteration-count: infinite;
     animation-duration: 0.025s;
-    font-size: 12px;
+    font-size: 18px;
 }
 @keyframes image{
     100%{
