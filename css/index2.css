@@ -434,16 +434,18 @@ ol li:hover{
 container{
         display: flex;
        flex-direction: column;
-       flex-basis:54% ;
+       flex-basis:100% ;
        /* background-color: azure; */
 }
 article{
-    flex-basis: 82%;
+    flex-basis: 80%;
     margin-top: 10px;
+    background-color: orangered;
    
 }
 section{
-    flex-basis: 18%;
+    flex-basis:20%;
+    background-color: orangered;
    
 }
 .image{
